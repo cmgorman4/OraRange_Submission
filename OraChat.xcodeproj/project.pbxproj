@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B38340E1A1C302200B15FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B38340D1A1C302200B15FF1 /* Foundation.framework */; };
+		3B3834101A1C302200B15FF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B38340F1A1C302200B15FF1 /* CoreGraphics.framework */; };
+		3B3834121A1C302200B15FF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3834111A1C302200B15FF1 /* UIKit.framework */; };
+		3B3834181A1C302200B15FF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B3834161A1C302200B15FF1 /* InfoPlist.strings */; };
+		3B38341A1A1C302200B15FF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3834191A1C302200B15FF1 /* main.m */; };
+		3B38341E1A1C302200B15FF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B38341D1A1C302200B15FF1 /* AppDelegate.m */; };
+		3B3834211A1C302200B15FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B38341F1A1C302200B15FF1 /* Main.storyboard */; };
+		3B3834241A1C302200B15FF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3834231A1C302200B15FF1 /* ViewController.m */; };
+		3B3834261A1C302200B15FF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3834251A1C302200B15FF1 /* Images.xcassets */; };
+		3B38342D1A1C302200B15FF1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B38342C1A1C302200B15FF1 /* XCTest.framework */; };
+		3B38342E1A1C302200B15FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B38340D1A1C302200B15FF1 /* Foundation.framework */; };
+		3B38342F1A1C302200B15FF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3834111A1C302200B15FF1 /* UIKit.framework */; };
+		3B3834371A1C302200B15FF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B3834351A1C302200B15FF1 /* InfoPlist.strings */; };
+		3B3834391A1C302200B15FF1 /* OraChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3834381A1C302200B15FF1 /* OraChatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B3834301A1C302200B15FF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B3834021A1C302200B15FF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3834091A1C302200B15FF1;
+			remoteInfo = OraChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B38340A1A1C302200B15FF1 /* OraChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OraChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B38340D1A1C302200B15FF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B38340F1A1C302200B15FF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B3834111A1C302200B15FF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B3834151A1C302200B15FF1 /* OraChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OraChat-Info.plist"; sourceTree = "<group>"; };
+		3B3834171A1C302200B15FF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B3834191A1C302200B15FF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B38341B1A1C302200B15FF1 /* OraChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OraChat-Prefix.pch"; sourceTree = "<group>"; };
+		3B38341C1A1C302200B15FF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B38341D1A1C302200B15FF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B3834201A1C302200B15FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B3834221A1C302200B15FF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B3834231A1C302200B15FF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B3834251A1C302200B15FF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B38342B1A1C302200B15FF1 /* OraChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OraChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B38342C1A1C302200B15FF1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3B3834341A1C302200B15FF1 /* OraChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OraChatTests-Info.plist"; sourceTree = "<group>"; };
+		3B3834361A1C302200B15FF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B3834381A1C302200B15FF1 /* OraChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OraChatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B3834071A1C302200B15FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3834101A1C302200B15FF1 /* CoreGraphics.framework in Frameworks */,
+				3B3834121A1C302200B15FF1 /* UIKit.framework in Frameworks */,
+				3B38340E1A1C302200B15FF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3834281A1C302200B15FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B38342D1A1C302200B15FF1 /* XCTest.framework in Frameworks */,
+				3B38342F1A1C302200B15FF1 /* UIKit.framework in Frameworks */,
+				3B38342E1A1C302200B15FF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3834011A1C302200B15FF1 = {
+			isa = PBXGroup;
+			children = (
+				3B3834131A1C302200B15FF1 /* OraChat */,
+				3B3834321A1C302200B15FF1 /* OraChatTests */,
+				3B38340C1A1C302200B15FF1 /* Frameworks */,
+				3B38340B1A1C302200B15FF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B38340B1A1C302200B15FF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B38340A1A1C302200B15FF1 /* OraChat.app */,
+				3B38342B1A1C302200B15FF1 /* OraChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B38340C1A1C302200B15FF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B38340D1A1C302200B15FF1 /* Foundation.framework */,
+				3B38340F1A1C302200B15FF1 /* CoreGraphics.framework */,
+				3B3834111A1C302200B15FF1 /* UIKit.framework */,
+				3B38342C1A1C302200B15FF1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B3834131A1C302200B15FF1 /* OraChat */ = {
+			isa = PBXGroup;
+			children = (
+				3B38341C1A1C302200B15FF1 /* AppDelegate.h */,
+				3B38341D1A1C302200B15FF1 /* AppDelegate.m */,
+				3B38341F1A1C302200B15FF1 /* Main.storyboard */,
+				3B3834221A1C302200B15FF1 /* ViewController.h */,
+				3B3834231A1C302200B15FF1 /* ViewController.m */,
+				3B3834251A1C302200B15FF1 /* Images.xcassets */,
+				3B3834141A1C302200B15FF1 /* Supporting Files */,
+			);
+			path = OraChat;
+			sourceTree = "<group>";
+		};
+		3B3834141A1C302200B15FF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B3834151A1C302200B15FF1 /* OraChat-Info.plist */,
+				3B3834161A1C302200B15FF1 /* InfoPlist.strings */,
+				3B3834191A1C302200B15FF1 /* main.m */,
+				3B38341B1A1C302200B15FF1 /* OraChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B3834321A1C302200B15FF1 /* OraChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B3834381A1C302200B15FF1 /* OraChatTests.m */,
+				3B3834331A1C302200B15FF1 /* Supporting Files */,
+			);
+			path = OraChatTests;
+			sourceTree = "<group>";
+		};
+		3B3834331A1C302200B15FF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B3834341A1C302200B15FF1 /* OraChatTests-Info.plist */,
+				3B3834351A1C302200B15FF1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B3834091A1C302200B15FF1 /* OraChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B38343C1A1C302200B15FF1 /* Build configuration list for PBXNativeTarget "OraChat" */;
+			buildPhases = (
+				3B3834061A1C302200B15FF1 /* Sources */,
+				3B3834071A1C302200B15FF1 /* Frameworks */,
+				3B3834081A1C302200B15FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OraChat;
+			productName = OraChat;
+			productReference = 3B38340A1A1C302200B15FF1 /* OraChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B38342A1A1C302200B15FF1 /* OraChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B38343F1A1C302200B15FF1 /* Build configuration list for PBXNativeTarget "OraChatTests" */;
+			buildPhases = (
+				3B3834271A1C302200B15FF1 /* Sources */,
+				3B3834281A1C302200B15FF1 /* Frameworks */,
+				3B3834291A1C302200B15FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B3834311A1C302200B15FF1 /* PBXTargetDependency */,
+			);
+			name = OraChatTests;
+			productName = OraChatTests;
+			productReference = 3B38342B1A1C302200B15FF1 /* OraChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B3834021A1C302200B15FF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Colin Gorman";
+				TargetAttributes = {
+					3B38342A1A1C302200B15FF1 = {
+						TestTargetID = 3B3834091A1C302200B15FF1;
+					};
+				};
+			};
+			buildConfigurationList = 3B3834051A1C302200B15FF1 /* Build configuration list for PBXProject "OraChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B3834011A1C302200B15FF1;
+			productRefGroup = 3B38340B1A1C302200B15FF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B3834091A1C302200B15FF1 /* OraChat */,
+				3B38342A1A1C302200B15FF1 /* OraChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B3834081A1C302200B15FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3834261A1C302200B15FF1 /* Images.xcassets in Resources */,
+				3B3834181A1C302200B15FF1 /* InfoPlist.strings in Resources */,
+				3B3834211A1C302200B15FF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3834291A1C302200B15FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3834371A1C302200B15FF1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B3834061A1C302200B15FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3834241A1C302200B15FF1 /* ViewController.m in Sources */,
+				3B38341E1A1C302200B15FF1 /* AppDelegate.m in Sources */,
+				3B38341A1A1C302200B15FF1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3834271A1C302200B15FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3834391A1C302200B15FF1 /* OraChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B3834311A1C302200B15FF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B3834091A1C302200B15FF1 /* OraChat */;
+			targetProxy = 3B3834301A1C302200B15FF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B3834161A1C302200B15FF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3834171A1C302200B15FF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B38341F1A1C302200B15FF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3834201A1C302200B15FF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B3834351A1C302200B15FF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3834361A1C302200B15FF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B38343A1A1C302200B15FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B38343B1A1C302200B15FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B38343D1A1C302200B15FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OraChat/OraChat-Prefix.pch";
+				INFOPLIST_FILE = "OraChat/OraChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B38343E1A1C302200B15FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OraChat/OraChat-Prefix.pch";
+				INFOPLIST_FILE = "OraChat/OraChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B3834401A1C302200B15FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OraChat.app/OraChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OraChat/OraChat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OraChatTests/OraChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3B3834411A1C302200B15FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OraChat.app/OraChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OraChat/OraChat-Prefix.pch";
+				INFOPLIST_FILE = "OraChatTests/OraChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B3834051A1C302200B15FF1 /* Build configuration list for PBXProject "OraChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B38343A1A1C302200B15FF1 /* Debug */,
+				3B38343B1A1C302200B15FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B38343C1A1C302200B15FF1 /* Build configuration list for PBXNativeTarget "OraChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B38343D1A1C302200B15FF1 /* Debug */,
+				3B38343E1A1C302200B15FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B38343F1A1C302200B15FF1 /* Build configuration list for PBXNativeTarget "OraChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3834401A1C302200B15FF1 /* Debug */,
+				3B3834411A1C302200B15FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B3834021A1C302200B15FF1 /* Project object */;
+}
