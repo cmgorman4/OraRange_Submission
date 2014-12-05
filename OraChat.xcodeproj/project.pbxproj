@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B135E9E1A1CC657006DADC3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B135E9D1A1CC657006DADC3 /* LoginViewController.m */; };
+		3B135EA11A1CC683006DADC3 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B135EA01A1CC683006DADC3 /* RegisterViewController.m */; };
+		3B2518FF1A1F6A6E0040002B /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2518FE1A1F6A6E0040002B /* MatchViewController.m */; };
+		3B2519021A1F78820040002B /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2519011A1F78820040002B /* Match.m */; };
 		3B38340E1A1C302200B15FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B38340D1A1C302200B15FF1 /* Foundation.framework */; };
 		3B3834101A1C302200B15FF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B38340F1A1C302200B15FF1 /* CoreGraphics.framework */; };
 		3B3834121A1C302200B15FF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3834111A1C302200B15FF1 /* UIKit.framework */; };
@@ -14,13 +18,16 @@
 		3B38341A1A1C302200B15FF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3834191A1C302200B15FF1 /* main.m */; };
 		3B38341E1A1C302200B15FF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B38341D1A1C302200B15FF1 /* AppDelegate.m */; };
 		3B3834211A1C302200B15FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B38341F1A1C302200B15FF1 /* Main.storyboard */; };
-		3B3834241A1C302200B15FF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3834231A1C302200B15FF1 /* ViewController.m */; };
 		3B3834261A1C302200B15FF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3834251A1C302200B15FF1 /* Images.xcassets */; };
 		3B38342D1A1C302200B15FF1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B38342C1A1C302200B15FF1 /* XCTest.framework */; };
 		3B38342E1A1C302200B15FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B38340D1A1C302200B15FF1 /* Foundation.framework */; };
 		3B38342F1A1C302200B15FF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3834111A1C302200B15FF1 /* UIKit.framework */; };
 		3B3834371A1C302200B15FF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B3834351A1C302200B15FF1 /* InfoPlist.strings */; };
 		3B3834391A1C302200B15FF1 /* OraChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3834381A1C302200B15FF1 /* OraChatTests.m */; };
+		3B3D40E91A1E28FE00B78C9A /* KeyboardManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3D40E81A1E28FE00B78C9A /* KeyboardManagerViewController.m */; };
+		3B45A3111A23670B0079063F /* challengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B45A3101A23670B0079063F /* challengeViewController.m */; };
+		3B45A3191A23F7E30079063F /* getDataFromOra.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B45A3181A23F7E30079063F /* getDataFromOra.m */; };
+		3B998F251A2271E400953D72 /* gameListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B998F241A2271E400953D72 /* gameListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B135E9C1A1CC657006DADC3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = OraChat/ViewControllers/LoginViewController.h; sourceTree = "<group>"; };
+		3B135E9D1A1CC657006DADC3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = OraChat/ViewControllers/LoginViewController.m; sourceTree = "<group>"; };
+		3B135E9F1A1CC683006DADC3 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = OraChat/ViewControllers/RegisterViewController.h; sourceTree = "<group>"; };
+		3B135EA01A1CC683006DADC3 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = OraChat/ViewControllers/RegisterViewController.m; sourceTree = "<group>"; };
+		3B2518FD1A1F6A6E0040002B /* MatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchViewController.h; path = OraChat/ViewControllers/MatchViewController.h; sourceTree = "<group>"; };
+		3B2518FE1A1F6A6E0040002B /* MatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchViewController.m; path = OraChat/ViewControllers/MatchViewController.m; sourceTree = "<group>"; };
+		3B2519001A1F78820040002B /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		3B2519011A1F78820040002B /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
 		3B38340A1A1C302200B15FF1 /* OraChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OraChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B38340D1A1C302200B15FF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3B38340F1A1C302200B15FF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +60,20 @@
 		3B38341C1A1C302200B15FF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3B38341D1A1C302200B15FF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3B3834201A1C302200B15FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3B3834221A1C302200B15FF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B3834231A1C302200B15FF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3B3834251A1C302200B15FF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3B38342B1A1C302200B15FF1 /* OraChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OraChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B38342C1A1C302200B15FF1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B3834341A1C302200B15FF1 /* OraChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OraChatTests-Info.plist"; sourceTree = "<group>"; };
 		3B3834361A1C302200B15FF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B3834381A1C302200B15FF1 /* OraChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OraChatTests.m; sourceTree = "<group>"; };
+		3B3D40E71A1E28FE00B78C9A /* KeyboardManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManagerViewController.h; sourceTree = "<group>"; };
+		3B3D40E81A1E28FE00B78C9A /* KeyboardManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardManagerViewController.m; sourceTree = "<group>"; };
+		3B45A30F1A23670B0079063F /* challengeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = challengeViewController.h; path = OraChat/ViewControllers/challengeViewController.h; sourceTree = "<group>"; };
+		3B45A3101A23670B0079063F /* challengeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = challengeViewController.m; path = OraChat/ViewControllers/challengeViewController.m; sourceTree = "<group>"; };
+		3B45A3171A23F7E30079063F /* getDataFromOra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = getDataFromOra.h; path = OraChat/Model/getDataFromOra.h; sourceTree = "<group>"; };
+		3B45A3181A23F7E30079063F /* getDataFromOra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = getDataFromOra.m; path = OraChat/Model/getDataFromOra.m; sourceTree = "<group>"; };
+		3B998F231A2271E400953D72 /* gameListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gameListViewController.h; path = OraChat/ViewControllers/gameListViewController.h; sourceTree = "<group>"; };
+		3B998F241A2271E400953D72 /* gameListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gameListViewController.m; path = OraChat/ViewControllers/gameListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +133,11 @@
 		3B3834131A1C302200B15FF1 /* OraChat */ = {
 			isa = PBXGroup;
 			children = (
+				3B3834431A1C381800B15FF1 /* Model */,
+				3B3834421A1C380500B15FF1 /* ViewControllers */,
 				3B38341C1A1C302200B15FF1 /* AppDelegate.h */,
 				3B38341D1A1C302200B15FF1 /* AppDelegate.m */,
 				3B38341F1A1C302200B15FF1 /* Main.storyboard */,
-				3B3834221A1C302200B15FF1 /* ViewController.h */,
-				3B3834231A1C302200B15FF1 /* ViewController.m */,
 				3B3834251A1C302200B15FF1 /* Images.xcassets */,
 				3B3834141A1C302200B15FF1 /* Supporting Files */,
 			);
@@ -150,6 +171,38 @@
 				3B3834351A1C302200B15FF1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B3834421A1C380500B15FF1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B135E9C1A1CC657006DADC3 /* LoginViewController.h */,
+				3B135E9D1A1CC657006DADC3 /* LoginViewController.m */,
+				3B135E9F1A1CC683006DADC3 /* RegisterViewController.h */,
+				3B135EA01A1CC683006DADC3 /* RegisterViewController.m */,
+				3B998F231A2271E400953D72 /* gameListViewController.h */,
+				3B998F241A2271E400953D72 /* gameListViewController.m */,
+				3B2518FD1A1F6A6E0040002B /* MatchViewController.h */,
+				3B2518FE1A1F6A6E0040002B /* MatchViewController.m */,
+				3B45A30F1A23670B0079063F /* challengeViewController.h */,
+				3B45A3101A23670B0079063F /* challengeViewController.m */,
+				3B3D40E71A1E28FE00B78C9A /* KeyboardManagerViewController.h */,
+				3B3D40E81A1E28FE00B78C9A /* KeyboardManagerViewController.m */,
+			);
+			name = ViewControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3B3834431A1C381800B15FF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B45A3171A23F7E30079063F /* getDataFromOra.h */,
+				3B45A3181A23F7E30079063F /* getDataFromOra.m */,
+				3B2519001A1F78820040002B /* Match.h */,
+				3B2519011A1F78820040002B /* Match.m */,
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +302,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B3834241A1C302200B15FF1 /* ViewController.m in Sources */,
+				3B998F251A2271E400953D72 /* gameListViewController.m in Sources */,
+				3B135E9E1A1CC657006DADC3 /* LoginViewController.m in Sources */,
+				3B45A3191A23F7E30079063F /* getDataFromOra.m in Sources */,
+				3B3D40E91A1E28FE00B78C9A /* KeyboardManagerViewController.m in Sources */,
 				3B38341E1A1C302200B15FF1 /* AppDelegate.m in Sources */,
+				3B45A3111A23670B0079063F /* challengeViewController.m in Sources */,
+				3B2518FF1A1F6A6E0040002B /* MatchViewController.m in Sources */,
 				3B38341A1A1C302200B15FF1 /* main.m in Sources */,
+				3B2519021A1F78820040002B /* Match.m in Sources */,
+				3B135EA11A1CC683006DADC3 /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +516,7 @@
 				3B38343E1A1C302200B15FF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B38343F1A1C302200B15FF1 /* Build configuration list for PBXNativeTarget "OraChatTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +525,7 @@
 				3B3834411A1C302200B15FF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
