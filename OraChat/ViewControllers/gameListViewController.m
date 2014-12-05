@@ -106,7 +106,10 @@
         //check to see if user has actually entered anything, if not bring the alert window back up
         if ([[alertView textFieldAtIndex:0].text length]==0)
         {
+            if (buttonIndex==1)
+            {
             [self composeGame];
+            }
         } else {
             //check of the "OK" button was selected
         if(buttonIndex==1)
